@@ -1,6 +1,9 @@
-New Laptop handoff 
+New Laptop handoff:
+	Before we need to inform the user to upload/ sync their OneDrive. If they are not using a cloud serviece for documents provide external storage.
+	
 
-Change computer name and place in correct ou
+Change computer name and place in correct OU in AD
+
 Add to the domain:
 	[Settings > system > Domain or workgroup > change > Domain: 	nam.zeomega.loc > adm. login/ password > restart]
 
@@ -26,6 +29,7 @@ Edge BM:
 
 Edge PW:
 	3 dot menu > passwords > Passwords Row > 3 dots; right click > Export passwords
+
 
 
 
