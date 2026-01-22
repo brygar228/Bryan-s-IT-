@@ -1,0 +1,31 @@
+New Laptop handoff 
+
+Change computer name and place in correct ou
+Add to the domain:
+	[Settings > system > Domain or workgroup > change > Domain: 	nam.zeomega.loc > adm. login/ password > restart]
+
+Set user as a local admin:
+	[computer management > Local Users and Groups > Groups]
+
+Have user login to: Office apps, OneDrive, Teams
+
+
+try vpn connection so IP address is saved: zeof5vpn.zeomega.com
+
+copy over VPN ip address doc.
+
+
+Chrome BM:
+	C:\Users\<YourUsername>\AppData\Local\Google\Chrome\User Data\Default\
+
+Chrome PW:
+	3 dot menu > "Passwords and Autofill" > Google Password Manager > Settings > Export passwords > then above is to Import Passwords
+
+Edge BM:
+	C:\Users\<Username>\AppData\Local\Microsoft\Edge\User Data\Default\
+
+Edge PW:
+	3 dot menu > passwords > Passwords Row > 3 dots; right click > Export passwords
+
+
+
