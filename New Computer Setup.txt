@@ -1,0 +1,53 @@
+New Computer Setup:
+
+Ensure the FnLock is on: [Lenovo] use F1 to get into the Bios. F12 for Boot Menu. 
+					For F12 Boot Menu to work it must be enabled in the BIOS Startup setting.
+					
+Once in the boot selection screen pick the USB device and click Enter
+If the mouse does not work or the trackpad you will need to use the Red TrackPoint 
+
+When asked to set up "personal" or "Set up for work or school" use Shift + F10 to open command prompt. 
+Enter "start ms-cxh://localonly" 
+
+make a local admin with the zeomega local admin creds.
+
+zeomega x3 
+
+to add device to the Domain: system> about > change- domain 
+	nam.zeomega.loc
+	then use adm. user account
+
+Once added you will find and move the device from "Computers" to the correct group inside of "Department Computers"
+	To search: change filter to search "Computers"
+
+Check Time zone is correct, enable location for auto time-zone
+
+install apps:
+Teamns
+Office Apps
+ProHance Installation
+Trellix > update trellix: [right click icon > update security...]
+Logi Unifying
+F5 VPN (components then client)
+
+
+Label the Laptop:
+"Imaged-Ready | CPU-RAM-Storage  | (Touch or not touch)"
+
+
+
+
+
+
+VPN: 
+First install components then the Client 
+
+USA:	zeof5vpn.zeomega.com/
+INIDA:	indiaf5vpn.zeomega.com
+
+Final Check:
+Time-zone
+Apps
+Domain
+
+			
