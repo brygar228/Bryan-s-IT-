@@ -11,10 +11,10 @@ Enter "start ms-cxh://localonly"
 
 make a local admin with the zeomega local admin creds.
 
-zeomega x3 
+<word or phrase> x3 
 
 to add device to the Domain: system> about > change- domain 
-	nam.zeomega.loc
+	<usa>.<corp>.loc
 	then use adm. user account
 
 Once added you will find and move the device from "Computers" to the correct group inside of "Department Computers"
@@ -27,12 +27,12 @@ Teamns
 Office Apps
 ProHance Installation
 Trellix > update trellix: [right click icon > update security...]
-Logi Unifying
-F5 VPN (components then client)
+tools
+VPN (components then client)
 
 
 Label the Laptop:
-"Imaged-Ready | CPU-RAM-Storage  | (Touch or not touch)"
+"CPU-RAM-Storage"
 
 
 
@@ -42,12 +42,14 @@ Label the Laptop:
 VPN: 
 First install components then the Client 
 
-USA:	zeof5vpn.zeomega.com/
-INIDA:	indiaf5vpn.zeomega.com
+main address
+backup address
+
 
 Final Check:
 Time-zone
 Apps
 Domain
+
 
 			
