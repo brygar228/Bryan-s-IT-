@@ -1,0 +1,19 @@
+
+#for this batch file to work the installers must be in the same folder as this file. 
+@echo off
+pushd "%~dp0"
+
+#copy below for each app you want to install
+
+echo Installing Application: #appnamehere ...
+start /wait appinstaller.exe
+
+
+#check that the apps did install 
+echo apps show as insalled   
+start appwiz.cpl
+
+
+popd 
+pause
+exit
