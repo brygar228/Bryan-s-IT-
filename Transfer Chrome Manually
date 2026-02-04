@@ -1,0 +1,17 @@
+For users that are remote and need to transfer their chrome browser data (bookmarks and passwords) and don't have a gmail to sync thier chrome data.
+Best use would be for them to make a folder on their OneDrive as a backup to save these if they need then later and the computer can not be accessed for some reason like damage or corrupt computer. 
+
+
+For user:
+"Make a Folder on the main page of your OneDrive called "Chrome Data Transfer" in there you will paste the exported Bookmark and Password files.  
+Here is a link on how to do the next steps: https://support.google.com/chrome/answer/96816?hl=en     
+Go to the "Move or export bookmarks to another browser" section,
+follow those steps and put the HTML file in the Chrome Transfer Folder.  
+
+For your passwords saved in the Google Password Manager use this link for steps: https://support.google.com/chrome/answer/13068232?hl=en&co=GENIE.Platform%3DDesktop      
+Go to the "Export passwords from Google Password Manager" section and upload that file also to the Chrome Transfer folder.  
+
+Use those the steps in those links to upload the files to your new chrome browser.
+Let me know if you have any questions or need help."
+
+If the user can't or is upset/ seeking a faster resolution remote in or do a teams session and take control. 
