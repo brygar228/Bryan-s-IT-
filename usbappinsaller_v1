@@ -1,5 +1,7 @@
 
+#this is a template to install apps off a usb (.exe or .msi)
 #for this batch file to work the installers must be in the same folder as this file. 
+
 @echo off
 pushd "%~dp0"
 
