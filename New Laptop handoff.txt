@@ -1,34 +1,83 @@
 New Laptop handoff:
 	Before we need to inform the user to upload/ sync their OneDrive. If they are not using a cloud serviece for documents provide external storage.
-	
+	This process is for laptops that have already been configured with default company apps.
 
 Change computer name and place in correct OU in AD
 
 Add to the domain:
-	[Settings > system > Domain or workgroup > change > Domain: 	nam.zeomega.loc > adm. login/ password > restart]
+	[Settings > system > Domain or workgroup > change > Domain: 	[domain] > domain admin usrname / password > restart]
 
-Set user as a local admin:
+Set user as a local admin: (if they are a select superuser)
 	[computer management > Local Users and Groups > Groups]
 
+Are there any special apps needed? 
+
 Have user login to: Office apps, OneDrive, Teams
+		"login to all apps"
 
-
-try vpn connection so IP address is saved: zeof5vpn.zeomega.com
+Test vpn connection so IP address is saved: <vpn address>
 
 copy over VPN ip address doc.
 
 
-Chrome BM:
-	C:\Users\<YourUsername>\AppData\Local\Google\Chrome\User Data\Default\
+Export Chrome Bookmark:
+		On your computer, open Chrome.
+		At the top right, select More More and then Bookmarks and lists and then Bookmark Manager.
+		At the top, select More More and then Export Bookmarks.
+Inport Chrome Bookmarks:
+		On your computer, open Chrome.
+		At the top right, select More More and then Bookmarks and lists and then Import bookmarks and settings.
+		Select Choose file.
+		Choose a file and select Open and then Done.
 
-Chrome PW:
-	3 dot menu > "Passwords and Autofill" > Google Password Manager > Settings > Export passwords > then above is to Import Passwords
+Export Chrome PW:
+		On your computer, open Chrome.
+		At the top right, select More More and then Passwords and autofill.
+		Select Google Password Manager and then Settings.
+		Scroll to “Export passwords.”
+		Select Download file.
 
-Edge BM:
-	C:\Users\<Username>\AppData\Local\Microsoft\Edge\User Data\Default\
+Import Chrome PW:
+		On your computer, open Chrome.
+		At the top right, select More More and then Passwords and autofill and then Google Password Manager and then Settings.
+		Under "Import passwords," click Select file.
+		Choose the .csv file you want to import.
+		To complete your import, follow the on-screen instructions.
 
-Edge PW:
-	3 dot menu > passwords > Passwords Row > 3 dots; right click > Export passwords
+Import Edge Favorites:
+		Open Microsoft Edge and select Settings and more  > Settings.
+		Screenshot of Edge toolbar
+		In the Profiles settings, select Import browser data.
+		Under Other import locations, select the Import button next to Import browser data now.
+		In the Import from list, select Favorites or bookmarks HTML file.
+		Select Choose file and find the file you created when you exported favorites from another browser.
+		Select the file you want to use and select Open.
+		When the import is complete, you'll see a notification. Select Done.
+
+Export Edge Favorites:
+		In your Microsoft Edge browser, open the Settings and more menu by selecting … in the upper-right corner of the window.
+		Navigate to Favorites.
+		Open the More options menu by selecting … above the list of favorited websites.
+		Select Export favorites.
+		Indicate a saving location, give the file a name you’ll remember, and choose Save.
+		
+Export Edge PW: 
+		Within your Microsoft Edge browser, open Settings.
+		Navigate to Profiles > Passwords.
+		Select the ellipses (…) next to Passwords.
+		Select Export passwords.
+		You’ll be prompted to choose a location to save your list of passwords. Once you’ve made your selection, select Save.
+
+Import Edge PW: 
+		Open Microsoft Edge and select Settings and more  > Settings.
+		Screenshot of Edge toolbar
+		In the Profiles settings, select Import browser data.​​​​​​​
+		Go to Other import locations and select the Import button nextto Import passwords now.
+		In the Import from menu, select Passwords CSV file.
+		Select Choose file and find the file you created when you exported from another browser.
+		Select the file you want to use and select Open.
+		When the import is complete, you'll see a notification. Select Done.
+
 
 
 
