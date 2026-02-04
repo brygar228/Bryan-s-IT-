@@ -1,1 +1,48 @@
+Catch all Restart: 
+Please try restarting your computer at a time most convinient to you like during your lunch or at the end of your workday. Save anything you are working on and close open apps.
+To Restart: click the windows key, power, then Restart. 
+    Long/ stuck restart
+    If the computer is suck on a restarting screen for more than 1hr hold the power button until it turns off then press the power button 1 time to turn it back on. 
 
+
+Account Access & Passwords>
+The Message: 
+I’m sorry to hear you're locked out! Before I manually reset your credentials, please try these quick steps:
+Check Caps Lock: It sounds simple, but it’s the #1 culprit.
+Self-Service Portal: Have you tried using our < .okta.com> to reset your password?
+The Sync Lag: If you just changed your password, ensure another device isn't still trying to log in with the old one, which might be locking you out.
+If that doesn't work: Please let me know your Username and exactly which application is giving you the error (e.g., Windows Login, Outlook, or a specific website).
+
+
+VPN not working>
+The Message: 
+Hello, lets try to narrow down where the issue is:
+The '30-Second' Rule: Toggle your Wi-Fi off and back on. If you're home, a quick reboot of your router often fixes the 'No Internet' error.
+Public Wi-Fi: If you are at a cafe or airport, ensure you've accepted their 'Terms & Conditions' in a browser window before launching the VPN.
+Hotspot Test: If possible, try connecting to your phone’s hotspot briefly to see if the issue is with your home ISP.
+If that doesn't work: Are you able to browse normal websites (like Google) but just can’t get on the VPN? Also, please send a screenshot of the specific error message you're seeing.
+
+
+Headset Issues>-------------------------------------
+The Message: 
+Hello, lets try a few diffrent things,
+The 'Unplug/Replug' Method: Unplug the device (USB, Dock, Monitor, headset), wait 5 seconds, and plug it back in. This forces the computer to re-scan for the hardware.
+Privacy Settings: If your mic/camera isn't working in Teams/Zoom, check Settings > Privacy > Camera to ensure 'Allow apps to access your camera' is turned On.
+The Power: unplug the power cable or turn it off, wait 10 seconds, and plug it back in or power back on.
+If that doesn't work: Could you provide the Model Number of the device (printer, headset, or dock) and tell me if it's plugged directly into the laptop or into a hub?"
+
+
+Slow Performance or Crashing Apps>-----------------------------------
+The Message: 
+Hello, i can help speed things up. To help me diagnose the 'slowness,' please try the following:
+The Classic Restart: If your 'Up Time' is more than a few days, a full Restart (not just closing the lid) clears out the system memory. To Restart: Click the windows key > power > Restart
+Task Manager Check: Press Ctrl + Shift + Esc. Does any app shows a very high percentage in the CPU or Memory column?
+Browser Cleanup: If the slowness is only in your browser, try clearing your Cache/Cookies. 
+If that doesn't work: Does the slowness happen all the time, or only when you have a specific program open?
+
+
+Hardware & Physical Issues>-------------------------------------
+The Message: "Hardware glitches can be tricky. To help me determine if this is a physical failure or a software bug, please check:
+Cables: Ensure your charging cable is firmly seated and that the light on the brick (if applicable) is on.
+The 'Soft Reset': Hold the power button down for a full 15 seconds to force a hard reboot.
+External Test: If your laptop screen is flickering, does it also happen if you plug into an external monitor?
