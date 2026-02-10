@@ -1,0 +1,21 @@
+AD:
+
+
+
+
+Locked out of AD:
+  search DC events for 4740 > who and what device
+  search user device for 4625 > why
+        match the times and it should say the reason for the lock out
+
+
+
+
+AD Query:
+
+  Users without Manager:
+  (&(&(&(objectCategory=person)(objectClass=user)(!manager=*)(!(samAccountName=adm*)))))
+
+
+
+
