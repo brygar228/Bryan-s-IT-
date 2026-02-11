@@ -1,6 +1,6 @@
 ﻿# 1. Configuration
-$domain = "nam.zeomega.loc"  # Replace with your actual domain
-$username = "adm.brodriguez"
+$domain = "-------------"  # Replace with your actual domain
+$username = "------------"
 $newName = Read-Host -Prompt "Enter the NEW computer name"
 
 # 2. Get the password for 'ben'
@@ -22,3 +22,4 @@ catch {
     Write-Host "Error: Could not rename computer. Check your credentials or connection to the DC." -ForegroundColor Red
     $PSItem.Exception.Message
 }
+
