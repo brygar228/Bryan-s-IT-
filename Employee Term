@@ -1,0 +1,18 @@
+Employee Term:
+
+Microsoft:
+Signout of Microsoft sessions 
+Block Sign-in
+  If needed:
+    Add manager to Read and manage permissions 
+    Go into OneDrive from make an access link > Put all contents into a folder > share folder with manager.
+Remove all but E3 or E1 licenses to keep mailbox active while manager uses if needed. 
+
+AD:
+Remove any DL from account or app security groups 
+Change password to random key if account must stay active
+  When access is not needed, move user to Disabled or Term. OU
+
+Okta: 
+Search user > more actions > Deactivate
+
