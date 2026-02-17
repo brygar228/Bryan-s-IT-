@@ -1,0 +1,9 @@
+New Disk added:
+  lsblk 
+  #sudo rescan-scsi-bus.sh    - scan for new disk
+
+  #fdisk /dev/sdx (sdb)
+    {makes the disk (sdb )into a partiton sdb1}
+          n (new partition) > p (primary)> "enter" number for partition: default > "enter" start partition at default > "enter" end partitioon at default 
+  #sudo mkfs.xfs -L "label" /dev/<sda1>
+    {make the filesystem (xfs / ext4) with a label}
