@@ -17,5 +17,6 @@ AD Query:
   (&(&(&(objectCategory=person)(objectClass=user)(!manager=*)(!(samAccountName=adm*)))))
 
 
-
+CMD Commands:
+  
 
