@@ -8,3 +8,7 @@ $credential = New-Object System.Management.Automation.PSCredential ("$doamin\$us
 Write-Host "Joining $domain..." -ForegroundColor Cyan
 
 Add-Computer -DomainName $domain -Credential $credential -Restart -Force
+
+
+
+git tag powershell
