@@ -18,3 +18,14 @@ To make SEDutil USB
   Expected output:
     #sedutil-cli --reverttper debug /dev/nvme0
     - 14:23:13.968 INFO: revertTper completed successfully
+
+Othere commands:
+--yesIreallywanttoERASEALLmydatausingthePSID <PSID> <device>
+revert the device using the PSID. *ERASING* *ALL* the data
+
+Example: 
+Root (to login)
+sedutil-cli --scan
+sedutil-cli --query /dev/nvme0
+sedutil-cli --yesIreallywanttoERASEALLmydatausingthePSID <PSID> /dev/nvme0
+sedutil-cli --initialSetup <newSIDpassword> /dev/nvme0
