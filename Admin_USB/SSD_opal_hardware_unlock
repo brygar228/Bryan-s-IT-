@@ -7,3 +7,14 @@ To make SEDutil USB
   Enter the command: sedutil-cli --scan 
       Expected Output: will show drive path, opal type and drive name
   Enter the following command to query a specific drive: sedutil-cli --query {drive} 
+  Look at the query output and make certain that the Locking section shows lockingEnabled=N
+                Example:
+                  -----
+                  Locking function (0x0002)
+                  Locked = N, LockingEnabled = N, LockingSupported = Y,
+                  ---------
+  Remove OPAL:
+    sedutil-cli --reverttper {SIDpassword} {drive}
+  Expected output:
+    #sedutil-cli --reverttper debug /dev/nvme0
+    - 14:23:13.968 INFO: revertTper completed successfully
