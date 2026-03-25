@@ -1,0 +1,9 @@
+To make SEDutil USB 
+  Got to--> https://sedutil.com/ 
+  then download 
+  Transfer Rescue image to the USB stick with a program like Balena Etcher
+  Restart your computer, enter the BIOS, and disable secure boot
+  Boot the USB thumb drive with the rescue system on it. You will see the Login prompt, enter "root" there is no password so you will get a root shell prompt.
+  Enter the command: sedutil-cli --scan 
+      Expected Output: will show drive path, opal type and drive name
+  Enter the following command to query a specific drive: sedutil-cli --query {drive} 
